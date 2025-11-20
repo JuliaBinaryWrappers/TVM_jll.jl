@@ -1,17 +1,776 @@
 [[TVM]]
-arch = "x86_64"
-git-tree-sha1 = "8fadffa2111b82136770952ebece210ef7cfb8c7"
-os = "macos"
-
-    [[TVM.download]]
-    sha256 = "18a5a1ae82257dff501df091f39a997acc91f0df2214110faf90ebeb1f11a3c0"
-    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.5.0+0/TVM.v0.5.0.x86_64-apple-darwin14.tar.gz"
-[[TVM]]
-arch = "x86_64"
-git-tree-sha1 = "23d2e4e3a4d05b02b1798dc9bf7214cab1c1f7b2"
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "34854904a9b725328fde64cc924b6838f570e19a"
+lazy = true
 libc = "glibc"
+llvm_version = "15"
 os = "linux"
 
     [[TVM.download]]
-    sha256 = "804b7d1a7de9ffdcdb21d43f06b0d231523acfa0c39186f011c0b10c0eb80efa"
-    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.5.0+0/TVM.v0.5.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "4b6bb34d25e61f66296a840c5e2e8bdfe96b4564eba320281e27b1263b5b869c"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51ec9ea01cb890c83ee9a82df007061ab4d72af4"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "b08149c9076ed578f755c3a8eec9144daccca2c0efd5b7a17f42d8697745744a"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a983177ef4a08bb4f4d56b26ab7742f2ab915eb4"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "8528f061cf80572344e3bff8e8f76d780661b9fb2844fb8912acb8f96764f041"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1bda834ee7172044ad1409e31cb0bde86a63575f"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "4b36ae5d3b7e73dad088c2618b5f75a62f836bca6f770e17881bd183bfa4e3d5"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "45e9a952bfadc2ce8972c373e53e380f892af219"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "a4cca2d45bfb266f4d12d7c2505f9cbde15f231a0ce3db111757e0d9ea9a5945"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c2383f2260896c6ceaa4017626b5c21fe82df645"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "dec5762598109186aadeaab75e3fe55037e1ed6200be94361788dc245dd4c358"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "80ce2267fac4985db85af7f30bce9406fd71e750"
+lazy = true
+llvm_version = "15"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "81c1fcd034b1fad33b5f76bc3b5c94628709bbb5ff1983577ae3b9a60c4b951a"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "3f1e5f7804965b44a1275fcac16e186f2edcbf8e"
+lazy = true
+llvm_version = "15"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "451f637851c3170694541fe39954c9c3209ca79f73a1c2c119a0b6de464290f1"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+15.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "67c59d9445ceb7dba2d7da3e873847f631091538"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "1f6112dd4863b0995218b7f32154cd2bda11e76a11c3741596b24f4f158d9cc6"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "64b7e612879967b111e189617bc3bc26d1217bf2"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "1e7be8634271bd46aa70572b7c75c70f3bdf6a82f44ed3d52ab39957a8b14e48"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "701c083c038712a2fb902bccd52391ae67703279"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "8c19498c9a33b3b1ae25cfa20357cef799653eef8c8e3d6d97b9c153c00bb83b"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7f7fb8a98862b161a96e2403f7497e8e10a2b1a0"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "d3b0edd3e29190637efd8785a32cc7c737c356e1d4d51947d82f212845d95201"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "23a7a4392f910310596239b941959bd4470cb4ca"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "a01389c8353bdff85ea5958cadd8560432c00544ccb8709088e3e9059ae3ce2f"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0ff02f76ac8188acd502641bcd15b9efb4ceeb52"
+lazy = true
+libc = "glibc"
+llvm_version = "15.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "78ea92b0184a714dfc6833f451842317e286d014473bacb575a939c2fe2e0046"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "b77348d340aa89f222feabf65986a82911488e92"
+lazy = true
+llvm_version = "15.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "c82695946fc09b68ada2657ec02c9fee4c0d706619b4d2c950924ef7ce443e54"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "3870fc8606fcf26f5e80dbc7d2a0c14b67ad9c17"
+lazy = true
+llvm_version = "15.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "c9180773755c2fac914c5117b883cb6e3be54052c36dfd468efeef56fce3f2d9"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+15.asserts.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "eb3b2116c1da7541f72f0f2c6852f44c7114f35d"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "5caa06370e4fdaf1995642d5f184d1907feda47cd0af0fb6c91187cced74f6c1"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "461a4e88f9c2e438a626b584bc658df2a9446562"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "e70e231bdb46864867ac57b42bbc19e6d354c7c78529ee66bd19ecae77ddf0e3"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "14db4eba0bbd1c3bdfe8f2d2147bb2270667e1c4"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "ba80aaff465c533ec2131cdf7145befad1ab346e0383bf3ee3f911a70f91e2d7"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1a6007cdd919612f52514b223e9e80fab92f9a6c"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "843f315414e24d028416dd3aaeffd31847e05a0838ec847d103fa0a7f395237a"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6aef503f9f59fb2a43b5394e05c675f91bd9ce1c"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "b377691e9d6e42730dfb8451e93ca05df20520a2baa1b1141e9e4a603e530a1a"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "25f809a8d270e44814303b4cabc9f1b5afe34572"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "e7027d5bf73e7c8e05d12c82ab6260a074a818caf4c59b4c34856c716d9aa699"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "4fb93a21e1b6a749a402553da5933fc59fd8eee9"
+lazy = true
+llvm_version = "16"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "73b6540ef436f26804115dba3b6129e0c7dd42c9629cb089a822ae2e68595bc4"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "afdcb959c5712da82d952af475215b39d8680359"
+lazy = true
+llvm_version = "16"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "4113d31cd08b25dc61022d98cf759860129f79cb2f12f3b9e95027777a3f4e37"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+16.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5d96e8f09caed094985686a3487f9cbc59cda434"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "2f683228bd8fcde8715e88be0d13d3ddf0a8a06cdfae6269f5836fbba9de540c"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "33134146e00f4fd577ff03db51d6b00e6f807b9a"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "0a166bbbc84dea49032319204e5b279a3afea11792632d44c4ecfbbfda4d2464"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "433fc28931c96454c0b233ef810667532aaf156e"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "c5cc497d7e59c2bf5981fd672598353f11a2806c6ca036531e8d248273af16db"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d9a6cffee093baa9da2d6618d7598ffdbf21631d"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "35eb769a93dc2baf012c540e9217f8476c8643f6b12b940ef3a99e3d38866285"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "715990ea956659eb9f87ecb33493fe8c0610e52f"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "4e9fe2586b654860d07b3ee30baca6f036b80304aa3d6ea2660604fa079ccb9e"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "add70fb1773e88d03e658550bc9367cc465b97a5"
+lazy = true
+libc = "glibc"
+llvm_version = "16.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "94340f018da24f68e40956a6a997585cea6324adbb282133dde89c7315d5e68e"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "114a9ee25fd72b60f121e2bba123c9b51a7010c3"
+lazy = true
+llvm_version = "16.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "0932d58271ab68f85abb102e4fa0693b7e6135e23d964c3ce69ee2c5b5ade82a"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "86f7510c35d56dbe65421cf5f8f6afc4ab6351d5"
+lazy = true
+llvm_version = "16.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "e441107b99072a8085dc830dd2adbedd385c3bd20d07fe211696f876462ba867"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+16.asserts.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "dbcdc9007ee9f5bb1f59d3e9bb453f1dc56f85ce"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "020ca8279276bc0f3ac0e05c24d999d8c00a11411c3cf432c52026b5889850c6"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "126692ba32f1007da471f7ace6b106168ed3f22d"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "471510a23973572d71786d487f6d7d1913c17393190d2bb67319c97302a5e903"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c591f8975ede6433fa352dcb2085e9d1f05e54ef"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "a7e8fbd773a4bf5e6d08a79e34f6ffe55279255fb1d0f2b770ce7ee12ba0f8a1"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b8ae20ccdae01e0fd1c1ea3e56a74101dbd5002"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "d45de1a11bf6b1a713b6969258cff4939addb5a515c7d21c52ba22bd0931608d"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7014b8e3c197f98cd1f28c310b8694048e7439b9"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "d5c3209a308839c4861fe0a7faf79f90a8eda107a13c52018a928edab80137bf"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c5c59eefa147c57d9241e91b94ede748974694ea"
+lazy = true
+libc = "glibc"
+llvm_version = "18"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "ae5e4c13fff089654165af984309a6c23d7d334260eb50a15e0ad3ff2b30cb95"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "6b61a40cd7bf8f6ddc61bc8b726c93cbfc4b0b2f"
+lazy = true
+llvm_version = "18"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "47bf81ba9a4d55bc642de0d8e6e313882f904f051395af1cefa5572f6eb326b8"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "16a4b471cc7fe8773820a9e9d2b6ee806f14f0f7"
+lazy = true
+llvm_version = "18"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "2d9d7a7dead33d0fe69700bd9d190a38a57f3c3b83429b4f9f08f393135240ac"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+18.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3c8ed24b8025507063fc9e54a23f9c316107af21"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "73b85da085aac1e0fd44f6661d6e3434d7d3e757fec749732d58076c646957f5"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9134bd4f281688a5999d42f8d4709040f71c238e"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "dbcecb2bd421b323133fecd717543c153582151be6000348c99095b7e0791f91"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fd47dae15ad3669bdc415a273dcae3f0f8ad5c1d"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "4c0ec7e394b45d439c86f6d7ff2802a813c2e4d1f61ba9bd7ed48e2b7d1442d0"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e81b4c8b308e906286d7f2a94d5b9a68954c32ec"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "2c41cd31d80788e189743ae66e4e48e7c4b05d4bcbf63ad8a6de22585309d7f7"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "359c9ff556d7a46c0419a95bf4ffdcc6a1a8dade"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "ea27ede99ccde445618f60e8bb66db60c4e86365481eb307c17892fe4738a832"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4a9959483543b6ab769815c42f05441f6c0c4532"
+lazy = true
+libc = "glibc"
+llvm_version = "18.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "fdd9067b01468e7c96a780c005531902b4f69ee072988d593e0a1048b02c219e"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "d578312b702d940b257eb1fbeb9566b77ef020b5"
+lazy = true
+llvm_version = "18.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "6c7c8016c2ef5cd8f4a1f74eb9d8a71762e167d5ee5d8889dd6d65cf34b7c809"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "c62e0d39d9ecc985191a0851d32ad29b7e5e31bd"
+lazy = true
+llvm_version = "18.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "97c36065c0ea7f1737b49f7e0ca18039d335d43f8a96245cf7b98a25658e1c47"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+18.asserts.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "61f0cd285877ee2cb01e7a4c4141effaddf4d73e"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "255469980428bdfd96fd60b9496c55064c7735dbdf227572ff2538025d12456d"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d7ba1acaf6873e1982ca1aaf161869b968389126"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "c4c9aeae1a9c073c36fc618b77400114ca79ef820b02158d37176e8b95b3082b"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "02fb31d070db212cf1b618c07ee8620fa30a197d"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "90b07680aba79129d8ecd27dc593da9cd0a82af86f72d1cecf0d14559078c0fb"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ac3f6617723491c36a9280ee8e3d43dd77e3fc94"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "8ec61c8a0611ef12575be63a416e7098e6d9e50424912534d06f472635751ba9"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1dab16ee0b7dceeb5684edb89c44823eae17c6d7"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "67b5b90d0512264b7dd4b965b2e4493cc4899e4deb463f6fe7b8436c2253e18e"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2db59ecc43a0598fa6e857404ad67bcbdd3ebd51"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "84279490ea2fce7942f57df1f2dee17dcec82272d48a6771d2a6b57bd241e6f7"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1b9fa5f271afc0643a288f84e2c4e27609208e41"
+lazy = true
+libc = "glibc"
+llvm_version = "20"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "dca5dc1a0be3079207402ad797f4a126f6c33e0bab7bf2d1b43949495a5b530b"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.riscv64-linux-gnu-cxx11-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "c86d26302358ba24f8335472c80a21801f2758e5"
+lazy = true
+llvm_version = "20"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "4339179f45bc013e24a2161ba50931e8b99a25d52ceeecc014733bfe59cfb984"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "765bf8fa86c40c2f317545c61126ab20a8a8108c"
+lazy = true
+llvm_version = "20"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "0bcd8d86f76f00a22e6d9f860fe759bad1ff932750a3b0e04df60b98ddd793d0"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+20.tar.gz"
+[[TVM]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e822aa04660de2171554331d3b284db85e913b10"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "76be95508629c969e15f2a65ef4297daf728dc432207915b71e03f8fb98a08be"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.i686-linux-gnu-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "43e8c1a392458d2ff08a0a259eea91fbcfb7ed87"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "4d49a0db3707b70eae08ff1567acb37a6a299a96ab46d16bed64637976461ee9"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-linux-gnu-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d8d8b3618ee5a98fe36694264edba248e537d5c1"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "a64889e8dd627e99c0f2c2d8d3f16e515fe1a28615606bd3cfb5c1d3c53c843c"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-linux-gnu-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f3327429e782a7b7b25af5725b93503bc5ea26c9"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "647cb0c816b403388851628b9439f129f82c42ec723fd5e5212fc9b7c8761bd8"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv6l-linux-gnueabihf-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d59c15ce9854a0a57f6047637cb9d94d3d2971c4"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "f09376c7a04ba0add1e34107636eb64014b7e7e43050d9429be27b6479618db0"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.armv7l-linux-gnueabihf-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ea908d7d753ff4679defa2cf97c756b6c97083fa"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "8c5e9e49cba9e8e37b4d15475806946f8bbf52b6c719ad107f227cbe5ddb6e59"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.powerpc64le-linux-gnu-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "25178a2aa603a97a6070e50c7b8f591d04b36985"
+lazy = true
+libc = "glibc"
+llvm_version = "20.asserts"
+os = "linux"
+
+    [[TVM.download]]
+    sha256 = "611208fbee806f814416ef76c34c74164c99f5fc7307f97150835f16db69669b"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.riscv64-linux-gnu-cxx11-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "x86_64"
+git-tree-sha1 = "26fa28db9ef6af246dc17ea0693eb327be8cd199"
+lazy = true
+llvm_version = "20.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "b69c883973d24f3b24c459057bc6694c002906aa00a021ac3e4fa7cc2a5ec832"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.x86_64-apple-darwin-llvm_version+20.asserts.tar.gz"
+[[TVM]]
+arch = "aarch64"
+git-tree-sha1 = "f61edde61f19b97ad0c108b3fc6a505416df0151"
+lazy = true
+llvm_version = "20.asserts"
+os = "macos"
+
+    [[TVM.download]]
+    sha256 = "ebfc9a35ca3b28079a321172879c039bc66a99c7c4dbf751a4ad85f2566f404f"
+    url = "https://github.com/JuliaBinaryWrappers/TVM_jll.jl/releases/download/TVM-v0.22.0+0/TVM.v0.22.0.aarch64-apple-darwin-llvm_version+20.asserts.tar.gz"

@@ -1,15 +1,22 @@
 name = "TVM_jll"
 uuid = "366fac1a-8926-5ab0-83e4-4abef7ac9c79"
-version = "0.5.0+1"
+version = "0.22.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+XML2_jll = "02c8fc9c-b97f-50b9-bbe4-9be30ff0a78a"
+TVMFFI_jll = "7af0ec00-f2f5-592e-a8a6-f550b668bbed"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+libLLVM_jll = "8f36deef-c2a5-5394-99ed-8e07531fb29a"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
-LLVM_jll = "86de99a1-58d6-5da7-8064-bd56ce2e322c"
 
 [compat]
-JLLWrappers = "1.2.0"
-julia = "1.0"
+JLLWrappers = "1.7.0"
+julia = "1.6"
+LazyArtifacts = "< 0.0.1, 1"
+Libdl = "< 0.0.1, 1"
+TOML = "< 0.0.1, 1"
+Artifacts = "< 0.0.1, 1"
